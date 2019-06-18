@@ -20,6 +20,7 @@ class ProposalsList extends Component{
           seller={proposal.seller} 
           customer={proposal.customer}
           value={proposal.value}
+          description = {proposal.description}
           />
         );
       });
