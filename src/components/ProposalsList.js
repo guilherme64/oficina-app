@@ -21,18 +21,15 @@ class ProposalsList extends Component{
           customer={proposal.customer}
           value={proposal.value}
           description = {proposal.description}
+          handleModal = {this.props.handleModal}
+          handleDetails = {this.props.handleDetails}
           />
         );
       });
       this.setState({proposals: proposals});
-    });
-    
-
-    
+    }); 
   }
   render(){
- 
-    //const data = this.state.clients;
     return(
       <div >
          <h2>
@@ -42,8 +39,6 @@ class ProposalsList extends Component{
           {this.state.proposals}
         </ul>
       </div>
-     
-
     );
   }
 }

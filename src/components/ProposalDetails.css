@@ -1,15 +1,4 @@
-.proposal {
-    padding: 10px;
-    margin: 10px;
-    min-width: 200px;
-    border-radius: 10px;
-    background-color: rgb(82, 167, 29);
-    color: white;
-}
-
-
-/*
-.proposal-modal {
+.details {
     position: fixed;
     top: 120px;
     left: 0%;
@@ -22,4 +11,4 @@
     border: 2px green solid;
     background-color: rgb(82, 167, 29);
     color: white;
-}*/
+}

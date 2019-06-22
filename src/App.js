@@ -1,11 +1,12 @@
 import React from 'react';
-import ProposalsList from './components/ProposalsList';
+
+import Container from './components/Container';
 
 function App() {
   return (
-    <div>
+    <div className = 'container'>
       <h1>Oficina App</h1>
-      <ProposalsList />
+      <Container />
     </div>
   );
 }
