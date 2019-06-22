@@ -24,6 +24,8 @@ class Container extends Component{
      if(this.state.showModal){
         return(
           <div>
+            <ProposalsList handleModal ={this.handleModal} handleDetails = {this.handleDetails} />
+            
             <ProposalDetails data = {this.state.modalInfo} handleModal = {this.handleModal} />
           </div>
         );

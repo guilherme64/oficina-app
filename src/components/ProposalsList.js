@@ -32,7 +32,7 @@ class ProposalsList extends Component{
   render(){
     return(
       <div >
-         <h2>
+         <h2 className='list--title'>
           Lista de Clientes
         </h2>
         <ul className='flex'>

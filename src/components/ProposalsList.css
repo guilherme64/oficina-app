@@ -2,3 +2,7 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.list--title {
+    text-align: center;
+}
