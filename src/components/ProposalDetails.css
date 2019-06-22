@@ -20,6 +20,10 @@
 
 .details--header__btn {
     float: right;
+    background-color: green;
+    height: 30px;
+    color: white;
+    border: none;
 }
 
 .details--section {

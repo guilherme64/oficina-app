@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './Proposal.css';
 
-import ProposalDetails from './ProposalDetails'
 
 class Proposal extends Component{
   constructor(props){
@@ -16,8 +15,6 @@ class Proposal extends Component{
     this.props.customer,
     this.props.value,
     this.props.description);
-    //this.state.active === false? this.setState({active: true}) : this.setState({active: false});
-    //console.log(this.state.active);
   }
   
   render(){
@@ -28,20 +25,6 @@ class Proposal extends Component{
           <p>Vendedor: {this.props.seller}</p>
         </div>
       );
-   /* }else{
-      return(
-        <div className ='proposal-modal'>
-          <div className='' key={this.props.id} onClick={this.onClick}>
-              <h3>{this.props.customer}</h3>
-              <button>X</button>
-              <p>Valor: {this.props.value}</p>
-              <p>Vendedor: {this.props.seller}</p>
-              <p>{this.props.description}</p>
-          </div>
-        </div>
-       
-      );
-    }*/
   }
 }
 
